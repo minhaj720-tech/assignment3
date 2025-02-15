@@ -14,5 +14,94 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
-  <body class="font-[Sora]"></body>
+  <body class="font-[Sora]">
+    <section class="border-2 border-green-300 lg:hidden">
+      <nav
+        class="flex items-center justify-between px-4 py-3 bg-white shadow-md"
+      >
+        <!-- Left: Leaf Logo -->
+        <img src="assets/leaf.png" alt="Logo" class="w-10 h-10" />
+
+        <!-- Right: Hamburger Menu -->
+        <button class="lg:hidden">
+          <img src="assets/bars-3.png" alt="Menu" class="w-8 h-8" />
+        </button>
+      </nav>
+    </section>
+
+    <section
+      class="bg-[#EFEBE4] w-400 h-325 bg-gradient-to-t from-[#EFEBE4] to-[#ffffff]"
+    >
+      <!-- navbar design -->
+      <nav class="flex justify-between ml-48 mr-48">
+        <div>
+          <img class="hidden md:block mt-8" src="assets/logo-header.png" />
+        </div>
+        <div class="ml-30 mt-8">
+          <ul class="hidden md:flex gap-[32px] mt-3 ml-48">
+            <li>
+              <a href="#" class="hover:underline hover:decoration-black"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:decoration-black"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline hover:decoration-black"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="hidden md:flex mt-8 gap-[12px]">
+          <img
+            class="w-6 h-6 mt-3 transform transition duration-700 hover:scale-110"
+            src="assets/search.png"
+          />
+          <img
+            class="w-6 h-6 mt-3 transform transition duration-700 hover:scale-110"
+            src="assets/trolly.png"
+          />
+
+          <button
+            class="border-2 bold border-green-700 px-7 rounded-lg w-32 h-11 hover:bg-green-200 transition"
+          >
+            Login
+          </button>
+          <button
+            class="bg-green-600 text-white px-7 rounded-lg w-32 h-11 hover:bg-green-700 transition"
+          >
+            Register
+          </button>
+        </div>
+      </nav>
+      <div
+        class="flex flex-col justify-center text-center items-center ml-71 mr-71"
+      >
+        <div class="px-6 lg:mt-[88px]">
+          <p class="font-sora font-semibold text-[32px] mb-4 lg:text-[56px]">
+            Freshness
+            <span class="text-green-700"
+              >You Can<br />
+              Count </span
+            >On, Prices You’ll Love!
+          </p>
+          <p class="mb-4">
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry <br />staples, we’ve got you covered every day!
+          </p>
+        </div>
+        <div class="w-100 h-100 lg:w-[1031px] lg:h-[831px] lg:mb-2">
+          <!--   animation added to image -->
+          <img
+            class="transform transition duration-700 hover:scale-110"
+            src="assets/hero-vegetables.png"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
